@@ -10,6 +10,8 @@ header {
     position: fixed;
     top: 0;
     background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
 }
 .logo {
     margin-left: 200px;
@@ -232,8 +234,59 @@ header {
     font-size: 45px;
     line-height: 0px;
 }
-.sec4 h1, p {
+.sec4 .div4 {
     text-align: center;
     color: white;
 }
 /* Section Four End */
+/* Portfolio Part Start */
+.sec5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.sec5 .text3 {
+    text-align: center;
+}
+.sec5 .text3 h1 {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.sec5 .text3 .p1 {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.sec5 .imgparents {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.sec5 .imgparents div {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.sec5 .imgparents h1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.sec5 .imgparents p {
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 0;
+}
+.sec5 figure {
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    overflow: hidden;
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    border-radius: 3%;
+}
+.sec5 figure:hover img {
+    opacity: 0.2;
+    transition: all .3s ease-in;
+}
+/* Portfolio Part END */
