@@ -353,3 +353,47 @@ header {
     background-color: white;
 }
 /* Pricing Table End */
+/* Footer Start */
+footer {
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: #fff;
+    margin-top: 200px;
+}
+footer .footparents {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .footparents .foot1 p {
+    color: rgba(255, 255, 255, 0.5); 
+}
+footer .footparents .foot1 input {
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .footparents .foot1 button {
+    font-size: 18px;
+    color: #fff;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .footparents .foot1 i {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .footparents .foot1 i:hover {
+    color: #8293ff;
+}
+/* Footer End */
